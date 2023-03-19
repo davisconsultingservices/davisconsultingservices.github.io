@@ -27,7 +27,7 @@ header {
   color: #F2F2F2;
 }
 
-header nav a {
+.header-link {
   color: #F2F2F2;
 }
 
@@ -69,28 +69,6 @@ nav a {
   font-size: 36px;
   font-weight: bold;
   text-shadow: 1px 1px #000;
-}
-
-.banner .cta {
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.banner .cta a {
-  display: inline-block;
-  background-color: #0077cc;
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-weight: bold;
-  transition: all 0.3s ease;
-}
-
-.banner .cta a:hover {
-  background-color: #005ea8;
 }
 
 /* Content area styles */
@@ -141,36 +119,6 @@ nav a {
   background-color: #005ea8;
 }
 
-.team {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.team-member {
-  flex-basis: calc(100% / 3 - 20px);
-  margin-right: 20px;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.team-member img {
-  width: 100%;
-  height: auto;
-  border-radius: 50%;
-  margin-bottom: 10px;
-}
-
-.team-member h4 {
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-.team-member p {
-  font-size: 14px;
-  margin-bottom: 10px
-}
-
 nav {
   display: flex;
   justify-content: flex-end;
@@ -182,6 +130,10 @@ nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+footer ul {
+  list-style: none;
 }
 
 nav ul li {
@@ -203,11 +155,9 @@ nav ul li a:hover {
 }
 
 .banner {
-  background-image: url('images/hero-image.jpg');
   background-size: cover;
   background-position: center center;
   background-color: #388e3c;
-  /* height: 400px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -222,11 +172,11 @@ nav ul li a:hover {
     text-align: center;
     color: #ffffff;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.3);
-    /* margin: 0 auto; */
     max-width: 800px;
 }
 
 .banner button {
+  margin-bottom: 22px;
   padding: 10px 20px;
   font-size: 18px;
   color: #ffffff;
@@ -257,16 +207,3 @@ nav ul li a:hover {
 .legal a:hover {
   color: #333;
 }
-
-/* .cta-button {
-  display: inline-block;
-  background-color: #4CAF50;
-  color: white;
-  border-radius: 50px;
-  padding: 12px 30px;
-  font-size: 16px;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-} */
