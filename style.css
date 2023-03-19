@@ -201,7 +201,7 @@ nav ul li a:hover {
   background-image: url('images/hero-image.jpg');
   background-size: cover;
   background-position: center center;
-  height: 400px;
+  /* height: 400px; */
   display: flex;
   align-items: center;
   justify-content: center;
