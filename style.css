@@ -193,3 +193,9 @@ nav ul li a {
 nav ul li a:hover {
   border-bottom: 2px solid #66C2A5;
 }
+
+.logo {
+  height: 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
