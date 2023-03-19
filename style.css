@@ -21,9 +21,10 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fff;
+  background-color: #333333;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   padding: 10px 20px;
+  color: #F2F2F2;
 }
 
 .logo {
