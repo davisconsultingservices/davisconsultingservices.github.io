@@ -431,6 +431,10 @@ button {
   background-color: #B4A4BC;
 }
 
+.free_hour_consultation {
+  z-index: 1000;
+}
+
 @media (max-width: 768px) {
   #header {
     display: none;
