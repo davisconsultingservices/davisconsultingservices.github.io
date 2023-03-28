@@ -150,6 +150,12 @@ nav ul {
   padding: 0;
 }
 
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
 .footer {
   display: flex;
   justify-content: flex-end;
@@ -424,3 +430,31 @@ button {
 .card:nth-child(3) {
   background-color: #B4A4BC;
 }
+
+@media (max-width: 768px) {
+  #header {
+    display: none;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .cards-section {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .team-card {
+    width: 90%;
+  }
+
+  footer {
+    position: static;
+    width: auto;
+  }
+
+} 
