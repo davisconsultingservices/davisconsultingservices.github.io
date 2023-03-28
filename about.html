@@ -9,27 +9,58 @@
 
         gtag('config', 'G-LCR9027D0W');
     </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(function() {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Davis Consulting Services LLC</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="top">
-        <div class="logo top">
-            <img src="images/logo.png" alt="Davis Consulting Services LLC">
+    <div id="header"></div>
+    <div class="hero-about">
+        <h1>About Us</h1>
+        <div class="values-section">
+            <h2>Our Values</h2>
+            <p>To provide outstanding security solutions and software development services, fostering client relationships through exceptional service, and staying at the forefront of industry advancements. We prioritize a passion for security and the development of cutting-edge strategies in both cybersecurity and software development. </p>
+    
         </div>
-        <nav class="top">
-            <ul>
-                <li><a class="header-link" href="index.html">Home</a></li>
-                <li><a class="header-link" href="about.html">About Us</a></li>
-                <li><a class="header-link" href="services.html">Services</a></li>
-                <li><a class="header-link" href="self-care.html">Self-Care</a></li>
-                <li><a class="header-link" href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div class="content">
+    </div>
+    <div class="cards-section">
+        <div class="card">
+            <h3>Adaptive Innovation</h3>
+            <p>We embrace the ever-changing landscape of cybersecurity and software development by continuously learning and adapting our strategies. We're not afraid to take calculated risks in pursuit of innovative solutions, ensuring our clients remain resilient and secure against evolving threats while creating high-quality, reliable software products.</p>
+        </div>
+        <div class="card">
+            <h3>Collaborative Excellence</h3>
+            <p>We believe that the key to success in both cybersecurity and software development lies in working together as a cohesive unit, both internally and with our clients. By fostering a collaborative environment, we can better understand the unique needs of each organization and provide tailored security solutions and software development services that exceed expectations.</p>
+        </div>
+        <div class="card">
+            <h3>Engaging Education</h3>
+            <p>We're committed to making cybersecurity and software development accessible and engaging for everyone, regardless of their background or expertise. By creating a fun and interactive learning experience, we empower individuals and businesses to take control of their security and develop a deeper understanding of software development processes, ultimately contributing to a safer digital world and better software products.</p>
+        </div>
+    </div>
+    <div class="team-section">
+        <h2>Meet Our Team</h2>
+        <div class="team-card">
+            <div class="image-container">
+                <img src="images/teammember1.jpeg" alt="Scott Lee Davis">
+            </div>
+            <h3>Scott Lee Davis</h3>
+            <h4>Chief Executive Officer</h4>
+            <p>Scott manages the day-to-day operations of Davis Consulting Services LLC, and has experience as a business founder in the non-profit space.</p>
+            <p>He is a seasoned full stack engineer and team leader with a passion for DevSecOps and has helped numerous teams create secure and reliable software products. Scott is also well-versed in the setup and configuration of physical security, ensuring that all aspects of a business are protected. With a strong focus on guiding teams towards success. He brings a wealth of knowledge and expertise to companies and their people.</p>
+            <p><a target="_blank" href="https://scottleedavis.bio">scottleedavis.bio</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="content">
+
         <section if="about-section">
             <h2>Who We Are</h2>
             <p>At Davis Consulting Services LLC, we are dedicated to providing top-notch security solutions to businesses of all sizes. Our mission is to help our clients achieve their security goals by leveraging our expertise in the industry.</p>
@@ -43,34 +74,9 @@
                 <p>Scott manages the day-to-day operations of <a href="https://davisconsulting.services">Davis Consulting Services LLC</a>, and has experience as a business founder in the non-profit space.</p>
                 <p>He is a seasoned full stack enginer and team leader with a passion for DevSecOps and has helped numerous teams create secure and reliable software products. Scott is also well-versed in the setup and configuration of physical security, ensuring that all aspects of a business are protected. With a strong focus on guiding teams towards success.  He brings a wealth of knowledge and expertise to companies and their people.</p>
               </div>
-              <section id="join-team">
-                <h2>Join Our Team</h2>
-                <p>We are always on the lookout for talented software development and security consultants to join our team. If you are passionate about creating high-quality software or security solutions, we want to hear from you.</p>
-                <p>As a member of our team, you will have the opportunity to work on a variety of projects for clients</p>
-                <p>We are committed to providing our consultants with a supportive and collaborative work environment, as well as ongoing opportunities for professional growth and development.</p>
-                <p>If you are interested in joining our team, please send your resume and a cover letter to us at <a href="mailto:jobs@davisconsulting.com">jobs@davisconsulting.services</a>. We look forward to hearing from you!</p>
-              </section>
-              
-            </div>
+            </div> 
         </section>
-    </div>
-    <footer>
-        <nav class="bottom">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="self-care.html">Self-Care</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-          </ul>
-        </nav>
-        <div class="legal">
-            <p>&copy; 2023 Davis Consulting Services LLC. All rights reserved.</p>
-            <ul>
-                <li><a href="privacy.html">Privacy Policy</a></li>
-                <li><a href="terms.html">Terms and Conditions</a></li>
-            </ul>
-        </div>
-    </footer>
+    </div> -->
+    <div id="footer"></div>
 </body>
 </html>

@@ -9,26 +9,20 @@
 
       gtag('config', 'G-LCR9027D0W');
   </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(function() {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Davis Consulting Services LLC</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="top">
-    <div class="logo top">
-        <img src="images/logo.png" alt="Davis Consulting Services LLC">
-    </div>
-    <nav class="top">
-            <ul>
-                <li><a class="header-link" href="index.html">Home</a></li>
-                <li><a class="header-link" href="about.html">About Us</a></li>
-                <li><a class="header-link" href="services.html">Services</a></li>
-                <li><a class="header-link" href="self-care.html">Self-Care</a></li>
-                <li><a class="header-link" href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
+  <div id="header"></div>
     <div class="content">
         <section id="services">
             <div class="container">
@@ -54,23 +48,6 @@
             </div>
           </section>
     </div>
-    <footer>
-      <nav class="bottom">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="self-care.html">Self-Care</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-          </ul>
-        </nav>
-        <div class="legal">
-            <p>&copy; 2023 Davis Consulting Services LLC. All rights reserved.</p>
-            <ul>
-                <li><a href="privacy.html">Privacy Policy</a></li>
-                <li><a href="terms.html">Terms and Conditions</a></li>
-            </ul>
-        </div>
-    </footer>
+    <div id="footer"></div>
 </body>
 </html>

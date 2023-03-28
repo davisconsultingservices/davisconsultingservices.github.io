@@ -28,15 +28,31 @@ header {
 }
 
 .header-link {
-  color: #F2F2F2;
+  color: #000000;
+}
+
+.contact-header {
+  margin-left: 22px;
+}
+
+.contact-header svg {
+  width: 20px;
+  height: 20px;
+  color: #000000;
+}
+
+.contact-header span {
+  color: #000000;
 }
 
 .logo {
   font-size: 24px;
   font-weight: bold;
   height: 50px;
-  display: inline-block;
+  display: flex;
   vertical-align: middle;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 nav {
@@ -73,15 +89,16 @@ nav a {
 
 /* Content area styles */
 .content {
-  max-width: 1200px;
-  margin: 0 auto;
   padding: 40px 20px;
+  background-color: #000000;
+  color: #FFFFFF;
 }
 
 .content h2 {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 20px;
+  color: #FFFFFF;
 }
 
 .service {
@@ -133,8 +150,36 @@ nav ul {
   padding: 0;
 }
 
-footer ul {
-  list-style: none;
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-top: 1px solid #e7e7e7;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.footer-link:hover {
+  color: #007bff;
+}
+
+.bottom-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #f1f1f1;
+  border-top: 1px solid #e7e7e7;
 }
 
 nav ul li {
@@ -158,7 +203,7 @@ nav ul li a:hover {
 .banner {
   background-size: cover;
   background-position: center center;
-  background-color: #388e3c;
+  background-color: #000000;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -176,6 +221,16 @@ nav ul li a:hover {
     max-width: 800px;
 }
 
+.banner h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.3);
+  max-width: 800px;
+}
+
 .banner button {
   margin-bottom: 22px;
   padding: 10px 20px;
@@ -186,6 +241,54 @@ nav ul li a:hover {
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s ease-in-out;
+}
+
+.hero-about {
+  background-image: url('images/banner-about.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+  text-align: left;
+  color: white;
+}
+
+.hero-about h1 {
+  margin-left: 22px;
+}
+
+.team-section {
+  padding: 30px 0;
+  background-color: #000000;
+}
+
+.team-section h2 {
+  margin-left: 44px;
+  color: #FFFFFF;
+}
+
+.team-card {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  width: 30%;
+  text-align: center;
+}
+
+.team-card img {
+  border-radius: 50%;
+  width: 100px;
+}
+
+.team-card .image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 80px;
 }
 
 .banner button:hover {
@@ -209,75 +312,68 @@ nav ul li a:hover {
   color: #333;
 }
 
-/* Contact Page Styling */
-.contact-section {
-  background-color: #f9f9f9;
-  padding: 50px 0;
-}
-
 .contact-form {
-  max-width: 600px;
-  margin: 0 auto;
-  background-color: #fff;
-  padding: 30px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  margin: 20px;
 }
 
-.contact-form input[type="text"],
-.contact-form input[type="email"],
-.contact-form input[type="tel"],
-.contact-form textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 20px;
-  border: none;
-  border-radius: 3px;
-  background-color: #f5f5f5;
-  color: #333;
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
 }
 
-.contact-form input[type="submit"] {
-  background-color: #4caf50;
+.content-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 3px;
-  cursor: pointer;
 }
 
-.contact-info {
-  max-width: 600px;
-  margin: 0 auto;
-  padding-top: 30px;
-}
-
-.contact-info h3 {
-  font-size: 24px;
-  font-weight: 600;
+.content-contact h2 {
+  margin-top: 0;
   margin-bottom: 20px;
 }
 
-.contact-info p {
+.content-contact p {
+  margin-top: 0;
   margin-bottom: 10px;
 }
 
-.social-media-links {
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
+.social-media a,
+.dev-media a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: white;
 }
 
-.social-media-link {
-  margin-right: 20px;
-  font-size: 24px;
-  color: #333;
-  text-decoration: none;
+.social-media a {
+  background-color: #0077B5;
+  border-radius: 50%;
 }
 
-.social-media-link:hover {
-  color: #4caf50;
+.dev-media a {
+  background-color: #333;
+  border-radius: 50%;
 }
+
+.social-media a:hover,
+.dev-media a:hover {
+  opacity: 0.8;
+}
+
 
 button {
   margin-bottom: 22px;
@@ -291,34 +387,40 @@ button {
   transition: background-color 0.3s ease-in-out;
 }
 
-@media (max-width: 768px) {
-  .top {
-    height: 0;
-    overflow: hidden;
-  }
+
+.values-section {
+  background-color: rgba(54, 57, 63, 0.8);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  text-align: left;
 }
 
-@media (max-width: 768px) {
-  .bottom ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start; 
-  }
-  .bottom li {
-    margin: 10px 0;
-  }
+.values-section p {
+  font-size: 18px;
+  max-width: 50%;
+  margin-left: auto;
 }
 
-@media (max-width: 768px) {
-  .service {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  .service img {
-    width: 100%;
-    margin-bottom: 20px;
-  }
+.cards-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0;
+  background-color: #000000;
+}
+
+.card {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 20px;
+  width: 30%;
+}
+
+.card:nth-child(2) {
+  background-color: #A4C4FC;
+}
+
+.card:nth-child(3) {
+  background-color: #B4A4BC;
 }
