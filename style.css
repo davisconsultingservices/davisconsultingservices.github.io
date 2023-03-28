@@ -486,7 +486,43 @@ button {
 }
 
 
+.services-section {
+  padding: 50px;
+}
 
+.services-section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: #007bff;
+}
+
+.services-section ol {
+  list-style: none;
+  counter-reset: list-counter;
+  padding: 0;
+}
+
+.services-section li {
+  margin-bottom: 15px;
+  position: relative;
+  padding-left: 50px;
+}
+
+.services-section li:before {
+  counter-increment: list-counter;
+  content: counter(list-counter);
+  position: absolute;
+  left: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.services-section strong {
+  font-weight: bold;
+  color: #007bff;
+}
 
 @media (max-width: 768px) {
   #header {
