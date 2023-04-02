@@ -3,6 +3,7 @@ body {
   font-family: Arial, sans-serif;
   font-size: 16px;
   color: #333;
+  background-color: #000000;
   margin: 0;
   padding: 0;
 }
@@ -68,6 +69,9 @@ nav a {
 /* Banner styles */
 .banner {
   position: relative;
+  background-image: url('images/banner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .banner img {
@@ -435,7 +439,6 @@ button {
 .free_hour_consultation {
   z-index: 1000;
 }
-
 
 #services {
   width: 100%;
