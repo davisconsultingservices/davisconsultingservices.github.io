@@ -635,6 +635,10 @@ button {
     display: none;
   }
 
+  .cta {
+    flex-direction: column;
+  }
+
   .footer {
     flex-direction: column;
   }
