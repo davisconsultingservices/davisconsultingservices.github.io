@@ -631,7 +631,20 @@ button {
 
 
 @media (max-width: 768px) {
-  #header {
+
+  .contact-header {
+    display: none;
+  }
+
+  #links {
+    margin-bottom: 3px;
+  }
+
+  #links h4 {
+    display: none;
+  }
+
+  #contacts h4 {
     display: none;
   }
 
