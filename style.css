@@ -385,6 +385,10 @@ nav ul li a:hover {
   margin-right: 2rem;
 }
 
+.left button {
+  margin-top: 2rem;
+}
+
 .right {
   display: flex;
   flex-direction: column;
@@ -421,6 +425,7 @@ button {
 #calendar {
   fill: white;
   height: 80px;
+  margin-top: 22px;
 }
 
 .values-section {
