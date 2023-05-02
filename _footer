@@ -1,0 +1,131 @@
+		<!-- Start Footer Area -->
+		<footer class="footer-area pt-100 pb-70 jarallax" data-jarallax='{"speed": 0.3}'>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-6">
+						<div class="single-footer-widget">
+							<a href="/" class="logo">
+								<img src="/assets/img/logo.png" alt="Image">
+							</a>
+
+							<p>Davis Consulting Services</p>
+
+							<ul class="social-icon">
+								<li>
+									<a target="_blank" href="https://www.facebook.com/davisconsultingservices777">
+										<i class="bx bxl-facebook"></i>
+									</a>
+								</li>
+								<li>
+									<a target="_blank" href="https://www.linkedin.com/company/davisconsultingservices/">
+										<i class="bx bxl-linkedin-square"></i>
+									</a>
+								</li>
+								<li>
+									<a target="_blank" href="https://github.com/davisconsultingservices">
+										<i class="bx bxl-github"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-6">
+						<div class="single-footer-widget">
+							<h3>Address</h3>
+
+							<ul class="address">
+								<li class="location">
+									<i class="bx bxs-location-plus"></i>
+									Portland, Oregon, USA
+								</li>
+								<li>
+									<i class="bx bxs-envelope"></i>
+									<a href="mailto:info@davisconsulting.services">info@davisconsulting.services</a>
+								</li>
+								<li>
+									<i class="bx bxs-phone-call"></i>
+									<a href="tel:+1-(503) 683-3256">(503) 683-3256</a> 
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-6">
+						<div class="single-footer-widget">
+							<h3>Security</h3>
+
+							<ul class="import-link">
+								<li>
+									<a href="/services/security/#cyber-asset">Cyber Asset Management</a>
+								</li>
+								<li>
+									<a href="/services/security/#testing">Product and Infrastructure pentesting</a>
+								</li>
+								<li>
+									<a href="/services/security/#testing">Source code and cryptography review</a>
+								</li>
+								<li>
+									<a href="/services/security/#physical">Cloud focused Physical Security</a>
+								</li>
+								<li>
+									<a href="/services/security/#">Collaboration</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-6">
+						<div class="single-footer-widget">
+							<h3>Software Engineering</h3>
+
+							<ul class="import-link">
+								<li>
+									<a href="/services/software/#modernization">Product Engineering</a>
+								</li>
+								<li>
+									<a href="/services/software/#qa">QA Services</a>
+								</li>
+								<li>
+									<a href="/services/software/#modernization">Digital Transformation</a>
+								</li>
+								<li>
+									<a href="/services/software/#modernization">Mobile Apps</a>
+								</li>
+								<li>
+									<a href="/services/software/#data">Data Analytics</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- End Footer Area -->
+
+		<!-- Start Copyright Area -->
+		<div class="copy-right-area">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-6 col-md-6">
+						<p>Copyright &copy; 2023. All rights reserved.</p>
+					</div>
+
+					<div class="col-lg-6 col-md-6">
+						<ul class="footer-menu">
+							<li>
+								<a href="/privacy/" target="_blank">
+									Privacy Policy
+								</a>
+							</li>
+							<li>
+								<a href="/terms/" target="_blank">
+									Terms & Conditions
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Copy Right Area -->
