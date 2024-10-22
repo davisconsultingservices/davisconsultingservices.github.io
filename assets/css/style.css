@@ -5955,6 +5955,14 @@ Services Details Area Style
   margin-bottom: 0;
 }
 
+.services-content ul {
+  list-style: none;
+}
+
+.services-content ul li:before {
+  content: '✓  ' !important;
+}
+
 .services-details-content .related-post .title {
   margin-bottom: 25px;
 }
